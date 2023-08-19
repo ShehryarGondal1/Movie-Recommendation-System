@@ -1,4 +1,4 @@
-# Movie Recommender System !
+# Movie Recommender System 
 
 <img src="demo/6.jpeg" alt="workflow" width="100%" >
 
@@ -171,20 +171,20 @@ EDA stands for exploratory data analysis where we explore our data and grab insi
 
 As you see our Dataset include 23 columns. 
 <br>
-<img src="demo/Movie.png" alt="workflow" width="70%">
+<img src="demo/Movie.png" alt="workflow" width="100%">
 <br>
 
 #### Data Cleaning 
 
 As I Also performn data cleaning steps , as some of the columns are messed up and :
 
-<img src="demo/Movie.png" alt="workflow" width="70%"> <br>
-<img src="demo/Movie2.png" alt="workflow" width="70%"> <br>
-<img src="demo/Movie3.png" alt="workflow" width="70%"> <br>
+<img src="demo/Movie.png" alt="workflow" width="100%"> <br>
+<img src="demo/Movie2.png" alt="workflow" width="100%"> <br>
+<img src="demo/Movie3.png" alt="workflow" width="100%"> <br>
 
 ### Insights:
 
-<img src="demo/Insight.png" alt="workflow" width="70%"> <br>
+<img src="demo/Insight.png" alt="workflow" width="100%"> <br>
 - "Drama" is the most prevalent genre, with 332 movies, indicating its popularity.
 - "Western" and "Documentary" genres have notably high average ratings, suggesting strong audience reception.
 - The dataset includes 19 unique genres, showcasing genre diversity in movies.
@@ -193,7 +193,7 @@ As I Also performn data cleaning steps , as some of the columns are messed up an
 - Some genres, like "Western" and "War," have low counts but high average ratings, catering to niche audiences.
 
 
-<img src="demo/Insight2.png" alt="workflow" width="70%"> <br>
+<img src="demo/Insight2.png" alt="workflow" width="100%"> <br>
 - "Action" and "Adventure" dominate with the highest total vote counts.
 - "Drama" remains popular, securing the third position.
 - "Comedy" has a strong following with a substantial vote count.
@@ -203,7 +203,7 @@ As I Also performn data cleaning steps , as some of the columns are messed up an
 - "Crime" and "Thriller" complete the top 10 list, highlighting suspenseful film preferences.
 
 
-<img src="demo/Insight3.png" alt="workflow" width="70%"> <br>
+<img src="demo/Insight3.png" alt="workflow" width="100%"> <br>
 - Maximum Film Runtime: 201.0 minutes
 - Minimum Film Runtime: 0.0 minutes
 - Average Film Runtime: 108.66 minutes
@@ -218,7 +218,6 @@ To provide a user-friendly interface, we have integrated the model into a Stream
 
 The Streamlit application can be accessed by running the `app.py` file. It provides a web interface where users can input the required features, and the model will predict the price based on the provided information.
 
-# Demo:
 
 <img src="demo/1.png" alt="workflow" width="70%">
 
