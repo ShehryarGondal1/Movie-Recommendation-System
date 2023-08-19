@@ -25,7 +25,7 @@ To develop our content-based movie recommendation system, we will utilize variou
 
 
 
-#### Dataset is taken from Kaggle and stored in mongodb
+#### Dataset is taken from Kaggle 
 
 🔧 Built with
 - streamlit
