@@ -219,11 +219,11 @@ To provide a user-friendly interface, we have integrated the model into a Stream
 The Streamlit application can be accessed by running the `app.py` file. It provides a web interface where users can input the required features, and the model will predict the price based on the provided information.
 
 
-<img src="demo/1.png" alt="workflow" width="70%">
+<img src="demo/1.png" alt="workflow" width="100%">
 
-<img src="demo/2.png" alt="workflow" width="70%">
+<img src="demo/2.png" alt="workflow" width="100%">
 
-<img src="demo/3.png" alt="workflow" width="70%">
+<img src="demo/3.png" alt="workflow" width="100%">
 
 Using Streamlit for the front-end enables a seamless integration of the machine learning model into a user-friendly web application, enhancing the usability and accessibility of the project.
 
