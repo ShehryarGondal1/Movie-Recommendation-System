@@ -86,10 +86,10 @@ pip install -r requirements.txt
 
 Make sure you are in the project directory and the Conda environment is activated.
 
-#### Start the Flask application:
+#### Start the streamlit application:
 
 ```
-'python application.py' 
+'streamlit run app.py' 
 
 ```
 Open a web browser and visit http://localhost:5000 to access the application.
