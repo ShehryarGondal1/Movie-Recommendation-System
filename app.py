@@ -1,9 +1,3 @@
-'''
-Author: Bappy Ahmed
-Email: entbappy73@gmail.com
-Date: 2021-Nov-15
-'''
-
 import pickle
 import streamlit as st
 import requests
@@ -23,7 +17,7 @@ def recommend(movie):
     recommended_movie_posters = []
     for i in distances[1:6]:
         # fetch the movie poster
-        movie_id = movies.iloc[i[0]].movie_id
+        movie_id = movies.iloc[i[0]].id
         recommended_movie_posters.append(fetch_poster(movie_id))
         recommended_movie_names.append(movies.iloc[i[0]].title)
 
@@ -59,4 +53,3 @@ if st.button('Show Recommendation'):
     with col5:
         st.text(recommended_movie_names[4])
         st.image(recommended_movie_posters[4])
-
